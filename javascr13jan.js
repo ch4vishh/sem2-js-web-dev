@@ -66,16 +66,16 @@ let data={
 
 //btn.removeEventListener('click', message)
 
-const conatiner=document.querySelector('.container')
-const outer=document.querySelector('.couter')
-const button=document.querySelector('button')
+// const conatiner=document.querySelector('.container')
+// const outer=document.querySelector('.couter')
+// const button=document.querySelector('button')
 
-conatiner.addEventListener('click', ()=> {console.log('Div')}, true)
-outer.addEventListener('click', ()=> {console.log('Outer Div')}, true)
-button.addEventListener('click', ()=> {console.log('Button')}, true)
+// conatiner.addEventListener('click', ()=> {console.log('Div')}, true)
+// outer.addEventListener('click', ()=> {console.log('Outer Div')}, true)
+// button.addEventListener('click', ()=> {console.log('Button')}, true)
 
 
-
+console.log("nw code" )
 
 
 
