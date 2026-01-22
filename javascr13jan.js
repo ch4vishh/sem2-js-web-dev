@@ -75,8 +75,37 @@ let data={
 // button.addEventListener('click', ()=> {console.log('Button')}, true)
 
 
-console.log("nw code" )
+// console.log("new code" )
+debugger
+console.log(b)
+//console.log(a)
 
+let a = 2933
+var b = 2432
+
+console.log(a)
+console.log(b)
+
+
+function print(){
+  console.log("inside fn")
+}
+print()
+
+//memory phase this will work frist and execution phase 
+// a:undefined  it will update 23534
+// b:undefined update hoke 8989
+// print(){ console.log(");}
+// in execution phase 
+// console.log(b) iska undefined aagjaye ga
+// let a: 23534 
+// var b : 8989 
+// console.log (a ) 23534
+// console.log(b)  8989
+// print() jese hi function call hota hai  uska khdu ka memory and code execution  
+// global ke andar code execution ke andar alag memory and code isnisde function
+// inside waale me execute hone ke baad memory waala destory ho jave ga 
+// //
 
 
 
