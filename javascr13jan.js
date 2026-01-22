@@ -105,7 +105,7 @@ print()
 // print() jese hi function call hota hai  uska khdu ka memory and code execution  
 // global ke andar code execution ke andar alag memory and code isnisde function
 // inside waale me execute hone ke baad memory waala destory ho jave ga 
-// //
+// phase execution //
 
 
 
