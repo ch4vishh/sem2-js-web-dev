@@ -108,6 +108,31 @@ print()
 // phase execution //
 
 
+const name=document.querySelector("#name")
+const btn=document.querySelector(".btn")
+const list=document.querySelector(".list")
+btn.addEventListener('click', () => {
+  if(name.value===""){
+    alert("Enter the name!!")
+    return;
+  }
+  const li=document.createElement('li')
+  const dlt=document.createElement('button')
+  dlt.innerText="Delete"
+  li.innerText=name.value;
+  dlt.addEventListener("click", () => {
+    list.removeChild(li)
+
+  })
+
+  li.appendChild(dlt)
+  list,appendchild(li)
+
+  name.value=""
+})
+
+
+
 
 
 //just for contribution 
