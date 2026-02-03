@@ -162,7 +162,17 @@ let data={
 
 // print()
 
+console.log("starting");
+setTimeout(() => {
+  console.log("Dinner done!");
+  console.log("starting dinner.... ");
 
-cdonsole.log("dhej")
-
-console.log("ppppp")
+  setTimeout(()=> {
+    console.log("Dinner done!");
+    console.log("Getting  ready to go out .....");
+  
+  setTimeout(()=> {
+    onslotchange.log("go to the playground !");
+    },1000);
+  },2000);
+},3000);
