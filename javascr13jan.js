@@ -76,21 +76,21 @@ let data={
 
 
 // console.log("new code" )
-debugger
-console.log(b)
-//console.log(a)
+// debugger
+// console.log(b)
+// //console.log(a)
 
-let a = 2933
-var b = 2432
+// let a = 2933
+// var b = 2432
 
-console.log(a)
-console.log(b)
+// console.log(a)
+// console.log(b)
 
 
-function print(){
-  console.log("inside fn")
-}
-print()
+// function print(){
+//   console.log("inside fn")
+// }
+// print()
 
 //memory phase this will work frist and execution phase 
 // a:undefined  it will update 23534
@@ -108,31 +108,61 @@ print()
 // phase execution //
 
 
-const name=document.querySelector("#name")
-const btn=document.querySelector(".btn")
-const list=document.querySelector(".list")
-btn.addEventListener('click', () => {
-  if(name.value===""){
-    alert("Enter the name!!")
-    return;
-  }
-  const li=document.createElement('li')
-  const dlt=document.createElement('button')
-  dlt.innerText="Delete"
-  li.innerText=name.value;
-  dlt.addEventListener("click", () => {
-    list.removeChild(li)
-
-  })
-
-  li.appendChild(dlt)
-  list,appendchild(li)
-
-  name.value=""
-})
 
 
+//just for contribution
+
+// const timerID=setInternal(()=> {console.log("setInterval")} ,10000)
+// const timeroutID=setTimeout(()=>{clearInterval(timerID)},10000  )
+
+//clearTiemout(TImeoutID)
 
 
+// let num = 1;
+// const id=setInterval(() => {
+//   if(num===10) clearInterval(id)
+//     console.log(num)
+//   num+=1
+// },1000)
 
-//just for contribution 
+
+// const name=document.querySelector("name")
+// const btn=document.querySelector(".btn")
+// const list=document.querySelector(".list")
+// btn.addEventListener('click', () => {
+//   if(name.value===""){
+//     alert("Enter the name !!")
+//     return;
+//   }
+
+//   const li=document.createElement('li')
+//   const dlt=document.createElement('button')
+//   dlt.innerText="Delete"
+//   li.innerText=name.value;
+//   dlt.addEventListener("click", ()=>{
+//     list.removeChild(li)
+//   })
+//   li.appendChild(dlt)
+//   list.appendChild(li)
+
+//   name.value=""
+// })  
+// make sure to write the html part
+// function print(sum){
+//   setTimeout(() =>{ 
+//     console.log("Inside print")
+//     num()
+//   },2000)
+// }
+
+// function print(num){
+//   console.log("Inside print")
+//   num()
+// }
+
+// print()
+
+
+cdonsole.log("dhej")
+
+console.log("ppppp")
