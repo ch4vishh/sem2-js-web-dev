@@ -161,7 +161,7 @@ let data={
 // }
 
 // print()
-
+//fffft
 console.log("starting");
 setTimeout(() => {
   console.log("Dinner done!");
