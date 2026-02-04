@@ -185,4 +185,5 @@ function finisHomework(callback) {
 //till lecture 11 
 //knvnvfnv dmvjdifnvjdfn 
 
-//jbfubfvuebvnfnvifjfijfi,mkvm  njsndnkvncsk 
+//jbfubfvuebvnfnvifjfijfi,mkvm  njsndnkvncsk nfrohfoeruhveourhgoer
+//kjhfwojenrwnj
