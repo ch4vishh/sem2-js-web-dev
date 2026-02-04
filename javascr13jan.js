@@ -176,3 +176,11 @@ setTimeout(() => {
     },1000);
   },2000);
 },3000);
+
+function finisHomework(callback) {
+  console.log("starting homwwork...");
+  setTimeout
+}
+
+//till lecture 11 
+//knvnvfnv dmvjdifnvjdfn 
