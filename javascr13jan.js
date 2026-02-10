@@ -182,8 +182,10 @@ let data={
 //   setTimeout
 // }
 
-//till lecture 11 
-//knvnvfnv dmvjdifnvjdfn 
 
-//jbfubfvuebvnfnvifjfijfi,mkvm  njsndnkvncsk nfrohfoeruhveourhgoer
-//kjhfwojenrwnj
+async function foodOrder(){
+  const data=await orderFood()
+  console.log(data)
+  await prepareFood()
+  await deliverFood()
+}
