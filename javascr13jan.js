@@ -162,25 +162,25 @@ let data={
 
 // print()
 //fffft
-console.log("starting");
-setTimeout(() => {
-  console.log("Dinner done!");
-  console.log("starting dinner.... ");
+// console.log("starting");
+// setTimeout(() => {
+//   console.log("Dinner done!");
+//   console.log("starting dinner.... ");
 
-  setTimeout(()=> {
-    console.log("Dinner done!");
-    console.log("Getting  ready to go out .....");
+//   setTimeout(()=> {
+//     console.log("Dinner done!");
+//     console.log("Getting  ready to go out .....");
   
-  setTimeout(()=> {
-    onslotchange.log("go to the playground !");
-    },1000);
-  },2000);
-},3000);
+//   setTimeout(()=> {
+//     onslotchange.log("go to the playground !");
+//     },1000);
+//   },2000);
+// },3000);
 
-function finisHomework(callback) {
-  console.log("starting homwwork...");
-  setTimeout
-}
+// function finisHomework(callback) {
+//   console.log("starting homwwork...");
+//   setTimeout
+// }
 
 //till lecture 11 
 //knvnvfnv dmvjdifnvjdfn 
